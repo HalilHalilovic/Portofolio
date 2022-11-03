@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+.MainWrap{
+    width: 100%;
+    height: 40rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    color: red;
+    font-size: 100px;
+    background-image: url("https://media.giphy.com/media/6APIjBCFYQbBIuukNR/giphy-downsized-large.gif");
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    
+}
+@media  screen and (max-Width:500px) {
+    .Content{
+    font-size: 70px;
+}
+
+}
+.TextContent{
+    margin: 0;
+}
